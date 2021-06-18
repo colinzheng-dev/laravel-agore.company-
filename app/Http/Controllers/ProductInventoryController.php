@@ -69,7 +69,7 @@ class ProductInventoryController extends Controller
      */
     public function update(Request $request, ProductInventory $productInventory)
     {
-        //
+        //you can add code here
     }
 
     /**
