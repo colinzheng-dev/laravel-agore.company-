@@ -9,7 +9,7 @@ use Illuminate\Support\Str;
 class UserFactory extends Factory
 {
     /**
-     * The name of the factory's corresponding model.
+     * The name of the factory's corresponding model. factory is for data seeding automatically.
      *
      * @var string
      */
@@ -32,7 +32,7 @@ class UserFactory extends Factory
     }
 
     /**
-     * Indicate that the model's email address should be unverified.
+     * Indicate that the model's email address should be unverified. Laravel is a framework of PHP
      *
      * @return \Illuminate\Database\Eloquent\Factories\Factory
      */
