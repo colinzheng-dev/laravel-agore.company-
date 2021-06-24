@@ -9,7 +9,7 @@ class Kernel extends ConsoleKernel
 {
     /**
      * The Artisan commands provided by your application.
-     *
+     *kernel is important part in building project for us/
      * @var array
      */
     protected $commands = [
@@ -18,7 +18,7 @@ class Kernel extends ConsoleKernel
 
     /**
      * Define the application's command schedule.
-     *
+     *keep the rule for OOP principle.
      * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
      * @return void
      */
