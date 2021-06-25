@@ -23,7 +23,7 @@ class ConfirmPasswordController extends Controller
 
     /**
      * Where to redirect users when the intended url fails.
-     *
+     * if you log in with wrong password, it returns a logout page.
      * @var string
      */
     protected $redirectTo = RouteServiceProvider::HOME;
